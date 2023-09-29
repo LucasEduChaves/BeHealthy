@@ -28,6 +28,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  
+  display: flex;
+  align-items: center;
 
   background-color: var(--bg-color);
 
@@ -37,7 +40,6 @@ body {
   width: 100vw;
   height: 100vh;
 
-  align-items: center;
 }
 
 section {
@@ -77,6 +79,12 @@ nav {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+}
+
+#content .infra {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .btn button {
@@ -245,12 +253,10 @@ padding: 8.5rem 0 4rem 3rem;
 
 #body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  /* justify-content: center; */
+  align-items: center; 
 
-  position: relative;
-  top: 15rem;
-  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .register {
