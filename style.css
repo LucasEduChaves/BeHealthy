@@ -170,7 +170,13 @@ nav {
   border: none;
 }
 
+#btn {
+  display: flex;
+  flex-direction: row;
+}
+
 #btn-log {
+  flex-direction: row;
   background-color: var(--btn-register);
 }
 
@@ -321,4 +327,59 @@ body #body #user {
   font-size: 1.2rem;
   
   color: var(--fc-text);
+}
+
+
+/* ----- Recuperar senha ----- */
+
+.container {
+  font-family: 'Montserrat', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: var(--fz-primary-title);
+
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.container #inputs {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.container #inputs label {
+  font-size: 1.5rem;
+}
+
+.container #inputs input {
+  border: none;
+  background-color: var(--bg-back-text-color);
+
+  height: 4rem;
+  border-radius: 1.4rem;
+
+}
+
+.container button {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem;
+
+  margin: 1.9rem auto 0;
+
+
+  border: none;
+
+  border-radius: 2rem;
+  width: 15rem;
+
+  background-color: var(--btn-color);
 }
