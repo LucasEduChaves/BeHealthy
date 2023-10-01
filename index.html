@@ -22,10 +22,11 @@
       <img src="/icons/muscles2.svg" alt="" class="halter" />
 
       <div class="links">
-        <a href="./pages/inferior.html">Inferiores</a>
-        <a href="./pages/superior.html">Superiores</a>
-        <a href="./pages/abdomen.html">Abdômen</a>
-        <a href="/">Mais sobre exercícios</a>
+        <a href="./pages/inferior.html" onclick="route()">Inferiores</a>
+        <a href="./pages/superior.html" onclick="route()">Superiores</a>
+        <a href="./pages/abdomen.html" onclick="route()">Abdômen</a>
+        <a href="/pages/404.html" onclick="route()">Mais sobre exercícios</a>
+        <a href="/" onclick="route()"></a>
       </div>
 
       <button class="user">
@@ -61,5 +62,15 @@
     </section>
 
     <div id="app"></div>
+
+    <script src="./js/index.js" type="module" ></script>
+
+    <!-- <script>
+      function route(event) {
+        event = event || window.event
+        event.preventDefault() 
+      }
+
+    </script> -->
   </body>
 </html>
