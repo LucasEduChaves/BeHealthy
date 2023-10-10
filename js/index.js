@@ -1,13 +1,13 @@
-import { Router } from './router.js'
+// import { Router } from './router.js'
 
-const router = new Router()
-router.add("/inferior", "./pages/inferior.html")
-router.add("/superior", "./pages/superior.html")
-router.add("/abdomen", "./pages/abdomen.html")
-router.add("/user", "./user/recover/user.html")
-router.add("/", "/pages/404.html")
+// const router = new Router()
+// router.add("/inferior", "./pages/inferior.html")
+// router.add("/superior", "./pages/superior.html")
+// router.add("/abdomen", "./pages/abdomen.html")
+// router.add("/user", "./user/recover/user.html")
+// router.add("/", "/pages/404.html")
 
-router.handle()
+// router.handle()
 
-window.onpopstate = () => router.handle()
-window.route = () => router.route() 
+// window.onpopstate = () => router.handle()
+// window.route = () => router.route() 
